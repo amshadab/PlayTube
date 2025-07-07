@@ -1,0 +1,27 @@
+# Ignore node_modules (common packages)
+node_modules/
+
+# Ignore build output
+dist/
+build/
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore environment and config files
+.env
+.env.local
+.env.*.local
+
+# Ignore git files
+.git/
+.gitignore
+
+
+
+# Ignore documentation or temp files
+README.md
+.DS_Store
+*.tmp
